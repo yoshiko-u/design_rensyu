@@ -210,6 +210,11 @@ body{
 }
 
 /* 　コンテンツD　*/
+.conD{
+    background-image: url(img/surf_1.jpg);
+    background-position: center;
+    background-size: cover;
+}
 .conD .container{
     padding-top: 2px;
 
@@ -217,6 +222,7 @@ body{
 
 .conD .text{
     padding: 20px;
+    background-color: rgba(255,255,255,0.5);
 }
 
 .conD h2{
@@ -251,7 +257,7 @@ body{
 
 .conD .photo{
     min-height: 200px;
-    background-image: url();
+    background-image: none;
     background-position: center;
     background-size: cover;
 }
@@ -276,4 +282,34 @@ body{
         flex: 1;
         padding: 50px;
     }
+}
+
+/* フッター　*/
+footer{
+    color: #fff;
+    color: var(--text-bright-color);
+    background-color: #2b5566;
+    background-color: var(--dark-main-color);
+}
+footer .container{
+    padding: 40px 20px;
+}
+
+/* フッターA */
+.footA h2{
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-family: 'montserrat',sans-serif;
+    font-size: 30px;
+    letter-spacing: 0.2em;
+}
+.footA p{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+.footA a{
+    color: inherit;
+    text-decoration: none;
+
 }
